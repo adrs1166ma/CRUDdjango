@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+{% extends "base.html" %}
+
+{% block content %}
     <h1>Home</h1>
-    <ul>
-        <li><a href="{% url "signup" %}">Signup</a></li>
-    </ul>
-</body>
-</html>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae vitae error voluptatibus animi temporibus ab explicabo, porro dolor architecto quo nemo quia, sit sequi. Consequatur necessitatibus praesentium obcaecati ducimus odit!
+    </p>
+{% endblock  %}
+    
